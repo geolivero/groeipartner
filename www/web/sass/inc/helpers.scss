@@ -1,0 +1,64 @@
+/*!--------------------------------------------------------------------
+STYLES "Outdated Browser"
+Version:    1.0.1 - 2014
+author:     Burocratik
+website:    http://www.burocratik.com
+* @preserve
+-----------------------------------------------------------------------*/
+#outdated{
+    display: none; position: fixed; top: 0; left: 0; width: 100%; height: 170px;
+    text-align: center; text-transform: uppercase; z-index:1500;
+    background-color: #f25648; color: #ffffff;
+}
+* html #outdated{position: absolute;}
+#outdated h6{font-size: 25px; line-height: 25px; margin: 30px 0 10px;}
+#outdated p{font-size: 12px; line-height: 12px;}
+#outdated #btnUpdateBrowser{
+    display: block; position: relative; padding: 10px 20px; margin: 30px auto 0; width: 180px;
+    color: #ffffff; text-decoration: none; border: 2px solid #ffffff; cursor: pointer;
+}
+#outdated #btnUpdateBrowser:hover{color: #f25648; background-color:#ffffff;}
+#outdated .last{position: absolute; top: 20px; right: 30px; width: 15px; height: 15px;}
+#outdated #btnCloseUpdateBrowser{
+    display: block; position: absolute; left: 0; top: 0; width: 100%; height: 100%;
+    text-decoration: none; color: #ffffff; font-size: 36px;
+}
+
+.full__screen {
+    position: absolute; left: 0; top: 0; bottom: 0;
+    right: 0; width: 100%; height: 100%;
+}
+
+.colls__block {
+    overflow: hidden;  min-height: 100%; height: 100%;
+    max-width: 980px; margin: 0 auto;
+}
+.coll__2 {
+    width: 50%; padding: 50px;  min-height: 100%;
+}
+.side__bar {
+    float: left; position: relative; min-height: 100%;
+
+    h1 {
+        font-size: 250%; padding-bottom: 20px; color: $color__a;
+        span {
+            background:$color__a;
+            color: $color__c; font-size: 70%;
+            display: inline-block; width: 40px; height: 40px;
+            text-align: center; line-height: 40px;
+            @include border-radius(100%);
+            margin-right: 10px; position: relative; top: -4px;
+        }
+    }
+}
+
+.btn__main {
+    display: inline-block; @include border-radius(5px);
+    background:rgba($color__a, 0.4); color: $color__a;
+    text-decoration: none; font-size: 160%; padding: 0 30px;
+    height: 50px; line-height: 50px; text-align: center;
+    @include transition(background 0.3s); margin: 10px 0;
+    &:hover {
+        background:rgba($color__a, 0.2);
+    }
+}

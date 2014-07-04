@@ -1,0 +1,175 @@
+.dark__block {
+    background:$color__b;
+
+    * {
+        color: $color__a;
+    }
+
+    h1 {
+        span {
+            color: $color__b;
+        }
+    }
+}
+
+.doen__block {
+    .circles {
+        position: absolute; left: 50%; 
+        @include transform(translateX(-50%));
+        top: 150px; @include opacity(0);
+        &.show {
+            @include transition(opacity 1s, transform 1s);
+            @include transform(translateX(-50%) translateY(0));
+            @include opacity(1);
+        }
+    }
+
+    .gr__1 {
+        @include sprite-background(durven__machine);
+    }
+    .gr__2 {
+        top: 100px;
+        @include sprite-background(durven_circles);
+        @include transform(translateX(-50%) translateY(-100px));
+    }
+}
+
+.doorzetten__block {
+    .circles {
+        position: absolute; left: 0; 
+        top: 150px; @include opacity(0);
+        &.show {
+            @include transition(opacity 1s, transform 1s);
+            @include transform(translateY(0));
+            @include opacity(1);
+        }
+    }
+
+
+}
+
+.doorzetten__block {
+    .circles {
+        position: absolute; left: 0; 
+        top: 150px; @include opacity(0);
+        @include transform(translateX(-30px));
+        &.show {
+            @include transition(opacity 1s, transform 1s);
+            @include transform(translateX(0px));
+            @include opacity(1);
+        }
+    }
+
+    .gr__1 {
+        @include sprite-background(dupl_bars);
+        top: 150px; left: 280px;
+    }
+    .gr__2 {
+        @include sprite-background(dubpl_1);
+        top: 150px;
+    }
+    .gr__3 {
+        @include sprite-background(dubpl_2);
+        top: 242px;
+    }
+    .gr__4 {
+        @include sprite-background(dubpl_3);
+        top: 340px;
+    }
+    .gr__5 {
+        @include sprite-background(dubpl_4);
+        top: 430px;
+    }
+    .gr__6 {
+        @include sprite-background(dubpl_5);
+        top: 520px;
+    }
+}
+
+.danken__block {
+    .circles {
+        position: absolute; left: 50px; 
+        top: 100px; @include opacity(0);
+        @include transform(translateX(-30px));
+        &.show {
+            @include transition(opacity 1s, transform 1s);
+            @include transform(translateX(0px));
+            @include opacity(1);
+        }
+    }
+
+    .gr__1 {
+        @include sprite-background(danken_1);
+        top: 100px; 
+    }
+    .gr__2 {
+        @include sprite-background(danken_2);
+        top: 223px;
+    }
+    .gr__3 {
+        @include sprite-background(danken_3);
+        top: 349px;
+    }
+    .gr__4 {
+        @include sprite-background(danken_4);
+        top: 477px;
+    }
+}
+
+.einde__block {
+    
+
+    .coll__2 {
+
+        &:before {
+            content: '';
+            display: block;
+            margin: 0 auto;
+            margin-bottom: 20px;
+            @include sprite-background(logo);
+        }
+        
+        position: absolute; left: 50%;
+        top: 200px; @include transform(translateX(-50%));
+        width: 600px;
+        text-align: center; float: none;
+
+        blockquote {
+            font-size: 100%;
+        }
+    }
+}
+
+.dupliceren__block {
+    .circles {
+        position: absolute; left: 0; 
+        top: 150px; @include opacity(0);
+        @include transform(translateY(-30px));
+        &.show {
+            @include transition(opacity 1s, transform 1s);
+            @include transform(translateY(0px));
+            @include opacity(1);
+        }
+    }
+
+    .gr__1 {
+        @include sprite-background(dupli_stairs);
+        top: 300px; left: 5px;
+    }
+    .gr__2 {
+        @include sprite-background(dupli_1);
+        top: 225px;  left: 0px;
+    }
+    .gr__3 {
+        @include sprite-background(dupli_2);
+        top: 175px;  left: 105px;
+    }
+    .gr__4 {
+        @include sprite-background(dupli_3);
+        top: 120px;  left: 186px;
+    }
+    .gr__5 {
+        @include sprite-background(dupli_4);
+        top: 64px;  left: 315px;
+    }
+}

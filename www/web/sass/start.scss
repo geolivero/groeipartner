@@ -1,0 +1,209 @@
+.start__block {
+    position: absolute;
+    left: 0; top: 0; bottom: 0;
+    right: 0; width: 100%;
+    height: 100%;
+    background:$color__a;
+
+    .info__block {
+        position: absolute; left: 20px;
+        top: 20px; position: relative; z-index: 50;
+        @include opacity(0);
+        @include transition(opacity 1s);
+
+        &.show {
+            @include opacity(1);
+        }
+
+        h1, h2 {
+            position: relative; z-index: 30;
+            font-size: 130%;
+            span {
+                display: inline-block;
+                width: 30px; height: 30px;
+                border: solid 2px $color__c;
+                background: $color__a;
+                text-transform: uppercase;
+                font-size: 14px;
+                text-align: center;
+                line-height: 28px;
+                margin-left: 10px;
+                color: $color__c;
+                position: relative;
+                @include border-radius(100%);
+                cursor: pointer;
+                &:hover {
+                    background:$color__c; color: $color__a;
+                }
+            }
+        }
+        h1 {
+            font-size: 230%;
+            span {
+                top: -5px;
+            }
+        }
+        h2 {
+            color: $color__c;
+        }
+        p {
+            overflow: hidden;
+            height: 0; background:$color__a;
+            @include transition(all 0.3s);
+            width: 300px; 
+            &.open {
+                height: auto;
+                border: solid 2px $color__c;
+                padding: 10px; background:$color__a;
+                z-index: 30; left: 250px; margin: 10px 0;
+            }
+        }
+    }
+
+
+}
+
+.spiral__menu {
+    width: 512px; height: 512px;
+    position: absolute; left: 50%; top: 50%;
+    @include transform(translateY(-55%) translateX(-50%));
+    @include opacity(0);
+    &:before {
+        content: '';
+        display: block; @include sprite-background(spiraal);
+        position: absolute; bottom: 0; left: 0;
+    }
+    &.show {
+        @include transition(opacity 1.5s, transform 1.5s);
+        @include transform(translateY(-50%) translateX(-50%));
+        @include opacity(1);
+    }
+    li {
+        position: absolute; left: 0; top: 0; width: 200px;
+        @include opacity(0);
+        a {
+
+            text-decoration: none;
+            color: $color__b;
+            display: block; position: absolute;
+            @include transition(all 0.3s);
+            &:before, &:after {
+                content: ''; display: block; position: absolute;
+                @include sprite-background(i-dromen); clear: both;
+            }
+            &:after { 
+                display: none;
+            }
+            span {
+                display: inline-block; width: 30px; text-align: center;
+                height: 30px; @include border-radius(100%);
+                background:$color__b; text-align: $color__a; line-height: 30px;
+                color: $color__a; margin-right: 10px;
+            }
+
+            &:hover {
+                @include transform(translateY(-10px));
+            }
+        }
+
+        &.show {
+            @include transition(opacity 1s,transform 1s);
+            @include transform(translateY(-10px));
+            @include opacity(1);
+        }
+    }
+
+    li.st__1, li.st__2, li.st__3, li.st__4 {
+        a {
+            &:before {
+                display: none;
+            }
+            &:after {
+                display: block;
+            }
+            span {
+                background:$color__c; float: left;
+            }
+        }
+    }
+
+    li.st__1 {
+        left: -10px; top: 220px;
+        a {
+            
+            &:after {
+                top: 30px; left: 30px;
+            }
+        }
+    }
+    li.st__2 {
+        left: -82px; top: 348px;
+        a {
+            padding-top: 50px;
+            &:after {
+                top: 0px; left: 88px;
+                @include sprite-background(i-denken); 
+            }
+        }
+    }
+    li.st__3 {
+        left: 39px; top: 413px;
+        a {
+            padding-top: 50px;
+            &:after {
+                top: 0px; left: 88px;
+                @include sprite-background(i-delen); 
+            }
+        }
+    }
+    li.st__4 {
+        left: 230px; top: 410px;
+        a {
+            padding-top: 70px;
+            &:after {
+                top: 0px; left: 55px;
+                @include sprite-background(i-durven); 
+            }
+        }
+    }
+    li.st__5 {
+        left: 415px; top: 318px;
+        a {
+            padding-top: 70px; padding-left: 70px;
+            &:before {
+                top: 0px; left: 0;
+                @include sprite-background(i-doen); 
+            }
+        }
+    }
+    li.st__6 {
+        left: 420px; top: 198px;
+        a {
+            padding-top: 30px; padding-left: 80px;
+            &:before {
+                top: 0px; left: 0;
+                @include sprite-background(i-doorzetten); 
+            }
+        }
+    }
+    li.st__7 {
+        left: 300px; top: 120px;
+        a {
+            padding-top: 0px; padding-left: 80px;
+            &:before {
+                top: 0px; left: 0;
+                @include sprite-background(i-dupliceren); 
+            }
+        }
+    }
+    li.st__8 {
+        top: 90px; left: 120px;
+        a {
+            padding-top: 0px; padding-left: 80px;
+            &:before {
+                top: 20px; left: 0;
+                @include sprite-background(i-danken); 
+            }
+        }
+    }
+}

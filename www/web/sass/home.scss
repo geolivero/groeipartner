@@ -1,0 +1,103 @@
+div.intro__layout.home {
+    position: absolute; left: 0; top: 0; bottom: 0; right: 0;
+    height: 100%; overflow: auto;
+
+    background:$color__b;
+    * {
+        color: $color__a;
+
+    }
+
+    .center__block {
+        width: 750px; overflow: hidden;
+        margin: 0 auto;
+        position: relative; top: 50%;
+        @include transform(translateY(-50%));
+    }
+    .left__gr {
+        float: left; margin-right: 20px;
+        
+        @include transform(translateX(50%));
+        @include opacity(0);
+        &.show_1 {
+            @include transition(all 0.8s ease);
+            @include opacity(1);
+        }
+        &.show_2 {
+            @include transition(all 0.8s ease);
+            @include transform(translateX(0));
+        }
+    }
+    h1 {
+        float: left; position: relative;
+        top: 0px;
+        font-size: 450%;
+
+        span {
+            display: block;
+            line-height: 1em;
+            position: relative;
+
+            
+            @include transform(translateY(-50px));
+            @include opacity(0);
+
+            &.show {  
+                @include transition(all 0.8s ease); 
+                @include transform(translateY(0px));
+                @include opacity(1);
+            }
+        }
+
+        .st__1 {
+            font-size: 90%; top: 10px;
+        }
+        .st__2 {
+            font-size: 133%;
+        }
+        .st__3 {
+            font-size: 67%;
+            line-height: 1.1em;
+            top: 5px;
+        }
+        .st__4 {
+            font-size: 77%;
+            line-height: 1.1em;
+        }
+        .st__5 {
+            font-size: 200%;
+            text-transform: uppercase;
+        }
+    }
+
+    a.start__btn {
+        position: absolute;
+        top: 50%; right: 0px;
+        width: 95px;
+        display: block;
+        @include transform(translateY(-50%));
+        text-align: center;
+        text-decoration: none;
+        @include transition(all 0.8s ease);
+        @include opacity(0);
+        &.show {
+            @include opacity(1);
+        }
+        span {
+            color: $color__c; font-size: 120%;
+            display: block; padding-top: 10px;
+            text-align: center;
+        }
+        * {
+            @include transition(all 0.3s);
+        }
+        &:hover {
+            span {
+                color: $color__a;    
+            }
+            #Landscape {
+                stroke: $color__a;
+            }
+        }
+    }
+}

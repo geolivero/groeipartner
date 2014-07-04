@@ -1,0 +1,173 @@
+.orange__block, .dark__block {
+    background:$color__c;
+
+    * {
+        color: $color__a;
+    }
+
+    blockquote {
+        font-size: 180%;
+        padding-bottom: 20px;
+    }
+
+    p {
+        font-size: 110%; line-height: 1.3em;
+    }
+
+    .intro {
+        @include opacity(0);
+        @include transform(translateX(-50px));
+        &.show {
+            @include transition(opacity 1s);  
+            @include opacity(1);  
+            @include transform(translateX(0px));
+        }
+        
+    }
+    p {
+        padding-bottom: 20px;
+    }
+}
+.denken__block {
+    .gr__1 {
+        @include sprite-background(denken);
+        position: absolute; left: 50%;
+        top: 120px; @include transform(translateX(-50%) scale(0));
+
+        &.show {
+            @include transition(transform 1s);
+            @include transform(translateX(-50%) scale(1));
+            left: 50%; 
+        }
+    }
+}
+
+.durven__block {
+    .gr__1, .gr__2, .gr__3, .gr__4, .gr__5 {
+        position: absolute; left: 50%; top: 200px;
+        @include transform(translateX(-50%) scale(0));
+        @include opacity(0);
+        &.show {
+            @include transition(transform 1s, opacity 1s);
+            @include opacity(1);
+        }
+    }
+    
+    .gr__1 {
+        @include sprite-background(durven-circle);
+        @include transform(translateX(-50%) scale(0) rotate(45deg));
+        &.show {
+            @include transform(translateX(-50%) scale(1) rotate(0));
+            @include opacity(1);
+        }
+    }
+    .gr__2 {
+        @include sprite-background(doc_1);   
+        top: 130px;
+        @include transform(translateX(-80%) scale(0));
+        &.show {
+            @include transform(translateX(-80%) scale(1));
+        }
+    }
+    .gr__3 {
+        @include sprite-background(doc_2); 
+        top: 130px;
+        @include transform(translateX(60%) scale(0));
+        &.show {
+            @include transform(translateX(60%) scale(1));
+        }
+    }
+    .gr__4 {
+        @include sprite-background(doc_3);   
+        top: 380px;
+        @include transform(translateX(-80%) scale(0));
+        &.show {
+            @include transform(translateX(-80%) scale(1));
+        }
+    }
+    .gr__5 {
+        @include sprite-background(doc_4);  
+        top: 380px;
+        @include transform(translateX(60%) scale(0)); 
+        &.show {
+            @include transform(translateX(60%) scale(1)); 
+        }
+    }
+    .coll__2 {
+        left: -30px;
+    }
+}
+
+.delen__block {
+    .gr__1, .gr__2, .gr__3 {
+        position: absolute;
+        @include opacity(0);
+        &.show {
+            @include transition(transform 1s, opacity 1s);
+            @include transform(scale(0.7) translateX(0) translateY(0));
+            @include opacity(1);
+        }
+    }
+    
+    .gr__1 {
+        @include sprite-background(delen-can);
+        left: 0;
+        top: 100px;
+        @include transform(scale(0.7) translateY(-50px));
+
+        &.show {
+        }
+    }
+    .gr__2 {
+        @include sprite-background(delen-people);
+        left: 0;
+        top: (100px+140px);
+        @include transform(scale(0.7) translateY(50px));
+        &.show {
+        }
+    }
+    .gr__3 {
+        @include sprite-background(delen-panels);
+        left: 320px;
+        top: 100px;
+        @include transform(scale(0.7) translateX(50px));
+        &.show {
+        }
+    }
+}
+
+.dromen__block {
+    .circles {
+        position: absolute;
+        left: 50%;
+        @include transform(translateX(-50%), translateX(100px));
+        @include opacity(0);
+        &.show {
+            @include transition(opacity 1s, transform 1s);
+            @include transform(translateX(-50%), translateY(0));
+            @include opacity(1);
+        }
+    }
+
+    .gr__1 {
+        @include sprite-background(dromen__1);
+        top: 120px; 
+        @include transform(translateX(-50%), translateY(-100px));
+    }
+    .gr__2 {
+        @include sprite-background(dromen__2);
+        top: 260px;
+        
+        &.show {
+            @include transform(translateX(-85%));    
+        }
+    }
+    .gr__3 {
+        @include sprite-background(dromen__3);
+        top: 260px;
+        
+        &.show {
+            @include transform(translateX(-15%));
+        }
+    }
+}
