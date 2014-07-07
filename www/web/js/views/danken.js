@@ -9,17 +9,16 @@ Danken = Backbone.View.extend({
 
     setTimeout(function () {
         self.$el.find('.intro').addClass('show');
-    }, 300);
+    }, 800);
 
     setTimeout(function () {
       self.$el.find('.circles').each(function (i) {
           var el = $(this);
-          console.log(i);
           setTimeout(function () {
             el.addClass('show');
-          }, i * 500);
+          }, i * 1000);
       });
-    }, 600);
+    }, 1200);
   },
   render: function () {
     this.$el.html(this.model.attributes.content);

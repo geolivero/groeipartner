@@ -1,4 +1,4 @@
-/* line 17, ../../../../../../.rvm/gems/ruby-2.0.0-p247/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 17, ../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -20,50 +20,50 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-/* line 22, ../../../../../../.rvm/gems/ruby-2.0.0-p247/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 22, ../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html {
   line-height: 1;
 }
 
-/* line 24, ../../../../../../.rvm/gems/ruby-2.0.0-p247/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 24, ../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 26, ../../../../../../.rvm/gems/ruby-2.0.0-p247/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 26, ../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 28, ../../../../../../.rvm/gems/ruby-2.0.0-p247/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 28, ../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle;
 }
 
-/* line 30, ../../../../../../.rvm/gems/ruby-2.0.0-p247/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 30, ../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none;
 }
-/* line 103, ../../../../../../.rvm/gems/ruby-2.0.0-p247/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 103, ../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q:before, q:after, blockquote:before, blockquote:after {
   content: "";
   content: none;
 }
 
-/* line 32, ../../../../../../.rvm/gems/ruby-2.0.0-p247/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 32, ../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none;
 }
 
-/* line 116, ../../../../../../.rvm/gems/ruby-2.0.0-p247/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 116, ../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
   display: block;
 }
 
-/*!--------------------------------------------------------------------
+/*--------------------------------------------------------------------
 STYLES "Outdated Browser"
 Version:    1.0.1 - 2014
 author:     Burocratik
@@ -254,8 +254,8 @@ body * {
 }
 /* line 16, ../sass/inc/defaults.scss */
 body .logo {
-  background-image: url('/images/icons-s449f3c20ec.png');
-  background-position: 0 -4301px;
+  background-image: url('/images/icons-s48968e97f2.png');
+  background-position: 0 -4293px;
   background-repeat: no-repeat;
   display: block;
   height: 53px;
@@ -268,12 +268,12 @@ body .logo {
 @media (-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 3 / 2), (min-device-pixel-ratio: 2) {
   /* line 16, ../sass/inc/defaults.scss */
   body .logo {
-    background-position: 0 -4301px;
+    background-position: 0 -4293px;
     -webkit-background-size: 524px auto;
     -moz-background-size: 524px auto;
     -o-background-size: 524px auto;
     background-size: 524px auto;
-    background-image: url('/images/icons-x2-s735f718858.png');
+    background-image: url('/images/icons-x2-s2622cbcbc2.png');
   }
 }
 
@@ -690,8 +690,8 @@ div.intro__layout.home a.start__btn:hover #Landscape {
 .spiral__menu:before {
   content: '';
   display: block;
-  background-image: url('/images/icons-s449f3c20ec.png');
-  background-position: 0 -520px;
+  background-image: url('/images/icons-s48968e97f2.png');
+  background-position: 0 0;
   background-repeat: no-repeat;
   display: block;
   height: 546px;
@@ -703,12 +703,11 @@ div.intro__layout.home a.start__btn:hover #Landscape {
 @media (-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 3 / 2), (min-device-pixel-ratio: 2) {
   /* line 71, ../sass/start.scss */
   .spiral__menu:before {
-    background-position: 0 0;
     -webkit-background-size: 524px auto;
     -moz-background-size: 524px auto;
     -o-background-size: 524px auto;
     background-size: 524px auto;
-    background-image: url('/images/icons-x2-s735f718858.png');
+    background-image: url('/images/icons-x2-s2622cbcbc2.png');
   }
 }
 /* line 76, ../sass/start.scss */
@@ -750,8 +749,8 @@ div.intro__layout.home a.start__btn:hover #Landscape {
   content: '';
   display: block;
   position: absolute;
-  background-image: url('/images/icons-s449f3c20ec.png');
-  background-position: 0 -6779px;
+  background-image: url('/images/icons-s48968e97f2.png');
+  background-position: 0 -6770px;
   background-repeat: no-repeat;
   display: block;
   height: 72px;
@@ -761,12 +760,12 @@ div.intro__layout.home a.start__btn:hover #Landscape {
 @media (-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 3 / 2), (min-device-pixel-ratio: 2) {
   /* line 90, ../sass/start.scss */
   .spiral__menu li a:before, .spiral__menu li a:after {
-    background-position: 0 -7028px;
+    background-position: 0 -7019px;
     -webkit-background-size: 524px auto;
     -moz-background-size: 524px auto;
     -o-background-size: 524px auto;
     background-size: 524px auto;
-    background-image: url('/images/icons-x2-s735f718858.png');
+    background-image: url('/images/icons-x2-s2622cbcbc2.png');
   }
 }
 /* line 94, ../sass/start.scss */
@@ -848,8 +847,8 @@ div.intro__layout.home a.start__btn:hover #Landscape {
 .spiral__menu li.st__2 a:after {
   top: 0px;
   left: 88px;
-  background-image: url('/images/icons-s449f3c20ec.png');
-  background-position: 0 -6851px;
+  background-image: url('/images/icons-s48968e97f2.png');
+  background-position: 0 -6842px;
   background-repeat: no-repeat;
   display: block;
   height: 71px;
@@ -858,12 +857,12 @@ div.intro__layout.home a.start__btn:hover #Landscape {
 @media (-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 3 / 2), (min-device-pixel-ratio: 2) {
   /* line 143, ../sass/start.scss */
   .spiral__menu li.st__2 a:after {
-    background-position: 0 -6957px;
+    background-position: 0 -6948px;
     -webkit-background-size: 524px auto;
     -moz-background-size: 524px auto;
     -o-background-size: 524px auto;
     background-size: 524px auto;
-    background-image: url('/images/icons-x2-s735f718858.png');
+    background-image: url('/images/icons-x2-s2622cbcbc2.png');
   }
 }
 /* line 149, ../sass/start.scss */
@@ -879,8 +878,8 @@ div.intro__layout.home a.start__btn:hover #Landscape {
 .spiral__menu li.st__3 a:after {
   top: 0px;
   left: 88px;
-  background-image: url('/images/icons-s449f3c20ec.png');
-  background-position: 0 -6595px;
+  background-image: url('/images/icons-s48968e97f2.png');
+  background-position: 0 -6587px;
   background-repeat: no-repeat;
   display: block;
   height: 72px;
@@ -889,12 +888,12 @@ div.intro__layout.home a.start__btn:hover #Landscape {
 @media (-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 3 / 2), (min-device-pixel-ratio: 2) {
   /* line 153, ../sass/start.scss */
   .spiral__menu li.st__3 a:after {
-    background-position: 0 -6885px;
+    background-position: 0 -6876px;
     -webkit-background-size: 524px auto;
     -moz-background-size: 524px auto;
     -o-background-size: 524px auto;
     background-size: 524px auto;
-    background-image: url('/images/icons-x2-s735f718858.png');
+    background-image: url('/images/icons-x2-s2622cbcbc2.png');
   }
 }
 /* line 159, ../sass/start.scss */
@@ -910,8 +909,8 @@ div.intro__layout.home a.start__btn:hover #Landscape {
 .spiral__menu li.st__4 a:after {
   top: 0px;
   left: 55px;
-  background-image: url('/images/icons-s449f3c20ec.png');
-  background-position: 0 -6382px;
+  background-image: url('/images/icons-s48968e97f2.png');
+  background-position: 0 -6374px;
   background-repeat: no-repeat;
   display: block;
   height: 72px;
@@ -920,12 +919,12 @@ div.intro__layout.home a.start__btn:hover #Landscape {
 @media (-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 3 / 2), (min-device-pixel-ratio: 2) {
   /* line 163, ../sass/start.scss */
   .spiral__menu li.st__4 a:after {
-    background-position: 0 -6382px;
+    background-position: 0 -6374px;
     -webkit-background-size: 524px auto;
     -moz-background-size: 524px auto;
     -o-background-size: 524px auto;
     background-size: 524px auto;
-    background-image: url('/images/icons-x2-s735f718858.png');
+    background-image: url('/images/icons-x2-s2622cbcbc2.png');
   }
 }
 /* line 169, ../sass/start.scss */
@@ -942,8 +941,8 @@ div.intro__layout.home a.start__btn:hover #Landscape {
 .spiral__menu li.st__5 a:before {
   top: 0px;
   left: 0;
-  background-image: url('/images/icons-s449f3c20ec.png');
-  background-position: 0 -6525px;
+  background-image: url('/images/icons-s48968e97f2.png');
+  background-position: 0 -6517px;
   background-repeat: no-repeat;
   display: block;
   height: 70px;
@@ -952,12 +951,12 @@ div.intro__layout.home a.start__btn:hover #Landscape {
 @media (-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 3 / 2), (min-device-pixel-ratio: 2) {
   /* line 173, ../sass/start.scss */
   .spiral__menu li.st__5 a:before {
-    background-position: 0 -6565px;
+    background-position: 0 -6556px;
     -webkit-background-size: 524px auto;
     -moz-background-size: 524px auto;
     -o-background-size: 524px auto;
     background-size: 524px auto;
-    background-image: url('/images/icons-x2-s735f718858.png');
+    background-image: url('/images/icons-x2-s2622cbcbc2.png');
   }
 }
 /* line 179, ../sass/start.scss */
@@ -974,8 +973,8 @@ div.intro__layout.home a.start__btn:hover #Landscape {
 .spiral__menu li.st__6 a:before {
   top: 0px;
   left: 0;
-  background-image: url('/images/icons-s449f3c20ec.png');
-  background-position: 0 -6667px;
+  background-image: url('/images/icons-s48968e97f2.png');
+  background-position: 0 -6659px;
   background-repeat: no-repeat;
   display: block;
   height: 72px;
@@ -984,12 +983,12 @@ div.intro__layout.home a.start__btn:hover #Landscape {
 @media (-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 3 / 2), (min-device-pixel-ratio: 2) {
   /* line 183, ../sass/start.scss */
   .spiral__menu li.st__6 a:before {
-    background-position: 0 -6813px;
+    background-position: 0 -6804px;
     -webkit-background-size: 524px auto;
     -moz-background-size: 524px auto;
     -o-background-size: 524px auto;
     background-size: 524px auto;
-    background-image: url('/images/icons-x2-s735f718858.png');
+    background-image: url('/images/icons-x2-s2622cbcbc2.png');
   }
 }
 /* line 189, ../sass/start.scss */
@@ -1006,8 +1005,8 @@ div.intro__layout.home a.start__btn:hover #Landscape {
 .spiral__menu li.st__7 a:before {
   top: 0px;
   left: 0;
-  background-image: url('/images/icons-s449f3c20ec.png');
-  background-position: 0 -6454px;
+  background-image: url('/images/icons-s48968e97f2.png');
+  background-position: 0 -6446px;
   background-repeat: no-repeat;
   display: block;
   height: 71px;
@@ -1016,12 +1015,12 @@ div.intro__layout.home a.start__btn:hover #Landscape {
 @media (-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 3 / 2), (min-device-pixel-ratio: 2) {
   /* line 193, ../sass/start.scss */
   .spiral__menu li.st__7 a:before {
-    background-position: 0 -6494px;
+    background-position: 0 -6446px;
     -webkit-background-size: 524px auto;
     -moz-background-size: 524px auto;
     -o-background-size: 524px auto;
     background-size: 524px auto;
-    background-image: url('/images/icons-x2-s735f718858.png');
+    background-image: url('/images/icons-x2-s2622cbcbc2.png');
   }
 }
 /* line 199, ../sass/start.scss */
@@ -1038,8 +1037,8 @@ div.intro__layout.home a.start__btn:hover #Landscape {
 .spiral__menu li.st__8 a:before {
   top: 20px;
   left: 0;
-  background-image: url('/images/icons-s449f3c20ec.png');
-  background-position: 0 -6312px;
+  background-image: url('/images/icons-s48968e97f2.png');
+  background-position: 0 -6304px;
   background-repeat: no-repeat;
   display: block;
   height: 70px;
@@ -1048,12 +1047,12 @@ div.intro__layout.home a.start__btn:hover #Landscape {
 @media (-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 3 / 2), (min-device-pixel-ratio: 2) {
   /* line 203, ../sass/start.scss */
   .spiral__menu li.st__8 a:before {
-    background-position: 0 -6312px;
+    background-position: 0 -6304px;
     -webkit-background-size: 524px auto;
     -moz-background-size: 524px auto;
     -o-background-size: 524px auto;
     background-size: 524px auto;
-    background-image: url('/images/icons-x2-s735f718858.png');
+    background-image: url('/images/icons-x2-s2622cbcbc2.png');
   }
 }
 
@@ -1075,7 +1074,7 @@ div.intro__layout.home a.start__btn:hover #Landscape {
   font-size: 110%;
   line-height: 1.3em;
 }
-/* line 17, ../sass/orange.scss */
+/* line 18, ../sass/orange.scss */
 .orange__block .intro, .dark__block .intro {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
   opacity: 0;
@@ -1085,7 +1084,7 @@ div.intro__layout.home a.start__btn:hover #Landscape {
   -o-transform: translateX(-50px);
   transform: translateX(-50px);
 }
-/* line 20, ../sass/orange.scss */
+/* line 21, ../sass/orange.scss */
 .orange__block .intro.show, .dark__block .intro.show {
   -webkit-transition: opacity 1s;
   -moz-transition: opacity 1s;
@@ -1099,15 +1098,15 @@ div.intro__layout.home a.start__btn:hover #Landscape {
   -o-transform: translateX(0px);
   transform: translateX(0px);
 }
-/* line 27, ../sass/orange.scss */
+/* line 28, ../sass/orange.scss */
 .orange__block p, .dark__block p {
   padding-bottom: 20px;
 }
 
-/* line 32, ../sass/orange.scss */
+/* line 33, ../sass/orange.scss */
 .denken__block .gr__1 {
-  background-image: url('/images/icons-s449f3c20ec.png');
-  background-position: 0 -1066px;
+  background-image: url('/images/icons-s48968e97f2.png');
+  background-position: 0 -546px;
   background-repeat: no-repeat;
   display: block;
   height: 334px;
@@ -1122,17 +1121,17 @@ div.intro__layout.home a.start__btn:hover #Landscape {
   transform: translateX(-50%) scale(0);
 }
 @media (-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 3 / 2), (min-device-pixel-ratio: 2) {
-  /* line 32, ../sass/orange.scss */
+  /* line 33, ../sass/orange.scss */
   .denken__block .gr__1 {
-    background-position: 0 -1066px;
+    background-position: 0 -546px;
     -webkit-background-size: 524px auto;
     -moz-background-size: 524px auto;
     -o-background-size: 524px auto;
     background-size: 524px auto;
-    background-image: url('/images/icons-x2-s735f718858.png');
+    background-image: url('/images/icons-x2-s2622cbcbc2.png');
   }
 }
-/* line 37, ../sass/orange.scss */
+/* line 38, ../sass/orange.scss */
 .denken__block .gr__1.show {
   -webkit-transition: -webkit-transform 1s;
   -moz-transition: -moz-transform 1s;
@@ -1146,7 +1145,7 @@ div.intro__layout.home a.start__btn:hover #Landscape {
   left: 50%;
 }
 
-/* line 46, ../sass/orange.scss */
+/* line 47, ../sass/orange.scss */
 .durven__block .gr__1, .durven__block .gr__2, .durven__block .gr__3, .durven__block .gr__4, .durven__block .gr__5 {
   position: absolute;
   left: 50%;
@@ -1159,7 +1158,7 @@ div.intro__layout.home a.start__btn:hover #Landscape {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
   opacity: 0;
 }
-/* line 50, ../sass/orange.scss */
+/* line 51, ../sass/orange.scss */
 .durven__block .gr__1.show, .durven__block .gr__2.show, .durven__block .gr__3.show, .durven__block .gr__4.show, .durven__block .gr__5.show {
   -webkit-transition: -webkit-transform 1s, opacity 1s;
   -moz-transition: -moz-transform 1s, opacity 1s;
@@ -1168,10 +1167,10 @@ div.intro__layout.home a.start__btn:hover #Landscape {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
   opacity: 1;
 }
-/* line 56, ../sass/orange.scss */
+/* line 57, ../sass/orange.scss */
 .durven__block .gr__1 {
-  background-image: url('/images/icons-s449f3c20ec.png');
-  background-position: 0 -3358px;
+  background-image: url('/images/icons-s48968e97f2.png');
+  background-position: 0 -3357px;
   background-repeat: no-repeat;
   display: block;
   height: 284px;
@@ -1183,17 +1182,17 @@ div.intro__layout.home a.start__btn:hover #Landscape {
   transform: translateX(-50%) scale(0) rotate(45deg);
 }
 @media (-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 3 / 2), (min-device-pixel-ratio: 2) {
-  /* line 56, ../sass/orange.scss */
+  /* line 57, ../sass/orange.scss */
   .durven__block .gr__1 {
-    background-position: 0 -3358px;
+    background-position: 0 -3357px;
     -webkit-background-size: 524px auto;
     -moz-background-size: 524px auto;
     -o-background-size: 524px auto;
     background-size: 524px auto;
-    background-image: url('/images/icons-x2-s735f718858.png');
+    background-image: url('/images/icons-x2-s2622cbcbc2.png');
   }
 }
-/* line 59, ../sass/orange.scss */
+/* line 60, ../sass/orange.scss */
 .durven__block .gr__1.show {
   -webkit-transform: translateX(-50%) scale(1) rotate(0);
   -moz-transform: translateX(-50%) scale(1) rotate(0);
@@ -1203,10 +1202,10 @@ div.intro__layout.home a.start__btn:hover #Landscape {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
   opacity: 1;
 }
-/* line 64, ../sass/orange.scss */
+/* line 65, ../sass/orange.scss */
 .durven__block .gr__2 {
-  background-image: url('/images/icons-s449f3c20ec.png');
-  background-position: 0 -3839px;
+  background-image: url('/images/icons-s48968e97f2.png');
+  background-position: 0 -3641px;
   background-repeat: no-repeat;
   display: block;
   height: 163px;
@@ -1219,17 +1218,17 @@ div.intro__layout.home a.start__btn:hover #Landscape {
   transform: translateX(-80%) scale(0);
 }
 @media (-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 3 / 2), (min-device-pixel-ratio: 2) {
-  /* line 64, ../sass/orange.scss */
+  /* line 65, ../sass/orange.scss */
   .durven__block .gr__2 {
-    background-position: 0 -3839px;
+    background-position: 0 -3737px;
     -webkit-background-size: 524px auto;
     -moz-background-size: 524px auto;
     -o-background-size: 524px auto;
     background-size: 524px auto;
-    background-image: url('/images/icons-x2-s735f718858.png');
+    background-image: url('/images/icons-x2-s2622cbcbc2.png');
   }
 }
-/* line 68, ../sass/orange.scss */
+/* line 69, ../sass/orange.scss */
 .durven__block .gr__2.show {
   -webkit-transform: translateX(-80%) scale(1);
   -moz-transform: translateX(-80%) scale(1);
@@ -1237,14 +1236,14 @@ div.intro__layout.home a.start__btn:hover #Landscape {
   -o-transform: translateX(-80%) scale(1);
   transform: translateX(-80%) scale(1);
 }
-/* line 72, ../sass/orange.scss */
+/* line 73, ../sass/orange.scss */
 .durven__block .gr__3 {
-  background-image: url('/images/icons-s449f3c20ec.png');
-  background-position: 0 -2896px;
+  background-image: url('/images/icons-s48968e97f2.png');
+  background-position: 0 -3097px;
   background-repeat: no-repeat;
   display: block;
-  height: 163px;
-  width: 164px;
+  height: 164px;
+  width: 133px;
   top: 130px;
   -webkit-transform: translateX(60%) scale(0);
   -moz-transform: translateX(60%) scale(0);
@@ -1253,17 +1252,17 @@ div.intro__layout.home a.start__btn:hover #Landscape {
   transform: translateX(60%) scale(0);
 }
 @media (-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 3 / 2), (min-device-pixel-ratio: 2) {
-  /* line 72, ../sass/orange.scss */
+  /* line 73, ../sass/orange.scss */
   .durven__block .gr__3 {
-    background-position: 0 -2896px;
+    background-position: 0 -3097px;
     -webkit-background-size: 524px auto;
     -moz-background-size: 524px auto;
     -o-background-size: 524px auto;
     background-size: 524px auto;
-    background-image: url('/images/icons-x2-s735f718858.png');
+    background-image: url('/images/icons-x2-s2622cbcbc2.png');
   }
 }
-/* line 76, ../sass/orange.scss */
+/* line 77, ../sass/orange.scss */
 .durven__block .gr__3.show {
   -webkit-transform: translateX(60%) scale(1);
   -moz-transform: translateX(60%) scale(1);
@@ -1271,14 +1270,14 @@ div.intro__layout.home a.start__btn:hover #Landscape {
   -o-transform: translateX(60%) scale(1);
   transform: translateX(60%) scale(1);
 }
-/* line 80, ../sass/orange.scss */
+/* line 81, ../sass/orange.scss */
 .durven__block .gr__4 {
-  background-image: url('/images/icons-s449f3c20ec.png');
-  background-position: 0 -3059px;
+  background-image: url('/images/icons-s48968e97f2.png');
+  background-position: 0 -2899px;
   background-repeat: no-repeat;
   display: block;
-  height: 200px;
-  width: 121px;
+  height: 198px;
+  width: 155px;
   top: 380px;
   -webkit-transform: translateX(-80%) scale(0);
   -moz-transform: translateX(-80%) scale(0);
@@ -1287,17 +1286,17 @@ div.intro__layout.home a.start__btn:hover #Landscape {
   transform: translateX(-80%) scale(0);
 }
 @media (-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 3 / 2), (min-device-pixel-ratio: 2) {
-  /* line 80, ../sass/orange.scss */
+  /* line 81, ../sass/orange.scss */
   .durven__block .gr__4 {
-    background-position: 0 -3059px;
+    background-position: 0 -2899px;
     -webkit-background-size: 524px auto;
     -moz-background-size: 524px auto;
     -o-background-size: 524px auto;
     background-size: 524px auto;
-    background-image: url('/images/icons-x2-s735f718858.png');
+    background-image: url('/images/icons-x2-s2622cbcbc2.png');
   }
 }
-/* line 84, ../sass/orange.scss */
+/* line 85, ../sass/orange.scss */
 .durven__block .gr__4.show {
   -webkit-transform: translateX(-80%) scale(1);
   -moz-transform: translateX(-80%) scale(1);
@@ -1305,14 +1304,14 @@ div.intro__layout.home a.start__btn:hover #Landscape {
   -o-transform: translateX(-80%) scale(1);
   transform: translateX(-80%) scale(1);
 }
-/* line 88, ../sass/orange.scss */
+/* line 89, ../sass/orange.scss */
 .durven__block .gr__5 {
-  background-image: url('/images/icons-s449f3c20ec.png');
-  background-position: 0 -2698px;
+  background-image: url('/images/icons-s48968e97f2.png');
+  background-position: 0 -2699px;
   background-repeat: no-repeat;
   display: block;
-  height: 198px;
-  width: 166px;
+  height: 200px;
+  width: 149px;
   top: 380px;
   -webkit-transform: translateX(60%) scale(0);
   -moz-transform: translateX(60%) scale(0);
@@ -1321,17 +1320,17 @@ div.intro__layout.home a.start__btn:hover #Landscape {
   transform: translateX(60%) scale(0);
 }
 @media (-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 3 / 2), (min-device-pixel-ratio: 2) {
-  /* line 88, ../sass/orange.scss */
+  /* line 89, ../sass/orange.scss */
   .durven__block .gr__5 {
-    background-position: 0 -2698px;
+    background-position: 0 -2699px;
     -webkit-background-size: 524px auto;
     -moz-background-size: 524px auto;
     -o-background-size: 524px auto;
     background-size: 524px auto;
-    background-image: url('/images/icons-x2-s735f718858.png');
+    background-image: url('/images/icons-x2-s2622cbcbc2.png');
   }
 }
-/* line 92, ../sass/orange.scss */
+/* line 93, ../sass/orange.scss */
 .durven__block .gr__5.show {
   -webkit-transform: translateX(60%) scale(1);
   -moz-transform: translateX(60%) scale(1);
@@ -1339,18 +1338,18 @@ div.intro__layout.home a.start__btn:hover #Landscape {
   -o-transform: translateX(60%) scale(1);
   transform: translateX(60%) scale(1);
 }
-/* line 96, ../sass/orange.scss */
+/* line 97, ../sass/orange.scss */
 .durven__block .coll__2 {
   left: -30px;
 }
 
-/* line 102, ../sass/orange.scss */
+/* line 103, ../sass/orange.scss */
 .delen__block .gr__1, .delen__block .gr__2, .delen__block .gr__3 {
   position: absolute;
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
   opacity: 0;
 }
-/* line 105, ../sass/orange.scss */
+/* line 106, ../sass/orange.scss */
 .delen__block .gr__1.show, .delen__block .gr__2.show, .delen__block .gr__3.show {
   -webkit-transition: -webkit-transform 1s, opacity 1s;
   -moz-transition: -moz-transform 1s, opacity 1s;
@@ -1364,10 +1363,10 @@ div.intro__layout.home a.start__btn:hover #Landscape {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
   opacity: 1;
 }
-/* line 112, ../sass/orange.scss */
+/* line 113, ../sass/orange.scss */
 .delen__block .gr__1 {
-  background-image: url('/images/icons-s449f3c20ec.png');
-  background-position: 0 -2486px;
+  background-image: url('/images/icons-s48968e97f2.png');
+  background-position: 0 -2487px;
   background-repeat: no-repeat;
   display: block;
   height: 212px;
@@ -1381,20 +1380,20 @@ div.intro__layout.home a.start__btn:hover #Landscape {
   transform: scale(0.7) translateY(-50px);
 }
 @media (-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 3 / 2), (min-device-pixel-ratio: 2) {
-  /* line 112, ../sass/orange.scss */
+  /* line 113, ../sass/orange.scss */
   .delen__block .gr__1 {
-    background-position: 0 -2486px;
+    background-position: 0 -2487px;
     -webkit-background-size: 524px auto;
     -moz-background-size: 524px auto;
     -o-background-size: 524px auto;
     background-size: 524px auto;
-    background-image: url('/images/icons-x2-s735f718858.png');
+    background-image: url('/images/icons-x2-s2622cbcbc2.png');
   }
 }
-/* line 121, ../sass/orange.scss */
+/* line 122, ../sass/orange.scss */
 .delen__block .gr__2 {
-  background-image: url('/images/icons-s449f3c20ec.png');
-  background-position: 0 -1711px;
+  background-image: url('/images/icons-s48968e97f2.png');
+  background-position: 0 -1712px;
   background-repeat: no-repeat;
   display: block;
   height: 328px;
@@ -1408,24 +1407,24 @@ div.intro__layout.home a.start__btn:hover #Landscape {
   transform: scale(0.7) translateY(50px);
 }
 @media (-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 3 / 2), (min-device-pixel-ratio: 2) {
-  /* line 121, ../sass/orange.scss */
+  /* line 122, ../sass/orange.scss */
   .delen__block .gr__2 {
-    background-position: 0 -1711px;
+    background-position: 0 -1712px;
     -webkit-background-size: 524px auto;
     -moz-background-size: 524px auto;
     -o-background-size: 524px auto;
     background-size: 524px auto;
-    background-image: url('/images/icons-x2-s735f718858.png');
+    background-image: url('/images/icons-x2-s2622cbcbc2.png');
   }
 }
-/* line 129, ../sass/orange.scss */
+/* line 130, ../sass/orange.scss */
 .delen__block .gr__3 {
-  background-image: url('/images/icons-s449f3c20ec.png');
-  background-position: 0 0;
+  background-image: url('/images/icons-s48968e97f2.png');
+  background-position: 0 -880px;
   background-repeat: no-repeat;
   display: block;
-  height: 520px;
-  width: 183px;
+  height: 521px;
+  width: 182px;
   left: 320px;
   top: 100px;
   -webkit-transform: scale(0.7) translateX(50px);
@@ -1435,18 +1434,18 @@ div.intro__layout.home a.start__btn:hover #Landscape {
   transform: scale(0.7) translateX(50px);
 }
 @media (-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 3 / 2), (min-device-pixel-ratio: 2) {
-  /* line 129, ../sass/orange.scss */
+  /* line 130, ../sass/orange.scss */
   .delen__block .gr__3 {
-    background-position: 0 -546px;
+    background-position: 0 -880px;
     -webkit-background-size: 524px auto;
     -moz-background-size: 524px auto;
     -o-background-size: 524px auto;
     background-size: 524px auto;
-    background-image: url('/images/icons-x2-s735f718858.png');
+    background-image: url('/images/icons-x2-s2622cbcbc2.png');
   }
 }
 
-/* line 140, ../sass/orange.scss */
+/* line 141, ../sass/orange.scss */
 .dromen__block .circles {
   position: absolute;
   left: 50%;
@@ -1458,7 +1457,7 @@ div.intro__layout.home a.start__btn:hover #Landscape {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
   opacity: 0;
 }
-/* line 145, ../sass/orange.scss */
+/* line 146, ../sass/orange.scss */
 .dromen__block .circles.show {
   -webkit-transition: opacity 1s, -webkit-transform 1s;
   -moz-transition: opacity 1s, -moz-transform 1s;
@@ -1472,10 +1471,10 @@ div.intro__layout.home a.start__btn:hover #Landscape {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
   opacity: 1;
 }
-/* line 152, ../sass/orange.scss */
+/* line 153, ../sass/orange.scss */
 .dromen__block .gr__1 {
-  background-image: url('/images/icons-s449f3c20ec.png');
-  background-position: 0 -4354px;
+  background-image: url('/images/icons-s48968e97f2.png');
+  background-position: 0 -4544px;
   background-repeat: no-repeat;
   display: block;
   height: 238px;
@@ -1488,20 +1487,20 @@ div.intro__layout.home a.start__btn:hover #Landscape {
   transform: translateX(-50%);
 }
 @media (-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 3 / 2), (min-device-pixel-ratio: 2) {
-  /* line 152, ../sass/orange.scss */
+  /* line 153, ../sass/orange.scss */
   .dromen__block .gr__1 {
-    background-position: 0 -4354px;
+    background-position: 0 -4346px;
     -webkit-background-size: 524px auto;
     -moz-background-size: 524px auto;
     -o-background-size: 524px auto;
     background-size: 524px auto;
-    background-image: url('/images/icons-x2-s735f718858.png');
+    background-image: url('/images/icons-x2-s2622cbcbc2.png');
   }
 }
-/* line 157, ../sass/orange.scss */
+/* line 158, ../sass/orange.scss */
 .dromen__block .gr__2 {
-  background-image: url('/images/icons-s449f3c20ec.png');
-  background-position: 0 -5234px;
+  background-image: url('/images/icons-s48968e97f2.png');
+  background-position: 0 -5166px;
   background-repeat: no-repeat;
   display: block;
   height: 239px;
@@ -1509,17 +1508,17 @@ div.intro__layout.home a.start__btn:hover #Landscape {
   top: 260px;
 }
 @media (-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 3 / 2), (min-device-pixel-ratio: 2) {
-  /* line 157, ../sass/orange.scss */
+  /* line 158, ../sass/orange.scss */
   .dromen__block .gr__2 {
-    background-position: 0 -5582px;
+    background-position: 0 -5455px;
     -webkit-background-size: 524px auto;
     -moz-background-size: 524px auto;
     -o-background-size: 524px auto;
     background-size: 524px auto;
-    background-image: url('/images/icons-x2-s735f718858.png');
+    background-image: url('/images/icons-x2-s2622cbcbc2.png');
   }
 }
-/* line 161, ../sass/orange.scss */
+/* line 162, ../sass/orange.scss */
 .dromen__block .gr__2.show {
   -webkit-transform: translateX(-85%);
   -moz-transform: translateX(-85%);
@@ -1527,10 +1526,10 @@ div.intro__layout.home a.start__btn:hover #Landscape {
   -o-transform: translateX(-85%);
   transform: translateX(-85%);
 }
-/* line 165, ../sass/orange.scss */
+/* line 166, ../sass/orange.scss */
 .dromen__block .gr__3 {
-  background-image: url('/images/icons-s449f3c20ec.png');
-  background-position: 0 -6073px;
+  background-image: url('/images/icons-s48968e97f2.png');
+  background-position: 0 -6065px;
   background-repeat: no-repeat;
   display: block;
   height: 239px;
@@ -1538,17 +1537,17 @@ div.intro__layout.home a.start__btn:hover #Landscape {
   top: 260px;
 }
 @media (-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 3 / 2), (min-device-pixel-ratio: 2) {
-  /* line 165, ../sass/orange.scss */
+  /* line 166, ../sass/orange.scss */
   .dromen__block .gr__3 {
-    background-position: 0 -6073px;
+    background-position: 0 -6065px;
     -webkit-background-size: 524px auto;
     -moz-background-size: 524px auto;
     -o-background-size: 524px auto;
     background-size: 524px auto;
-    background-image: url('/images/icons-x2-s735f718858.png');
+    background-image: url('/images/icons-x2-s2622cbcbc2.png');
   }
 }
-/* line 169, ../sass/orange.scss */
+/* line 170, ../sass/orange.scss */
 .dromen__block .gr__3.show {
   -webkit-transform: translateX(-15%);
   -moz-transform: translateX(-15%);
@@ -1599,8 +1598,8 @@ div.intro__layout.home a.start__btn:hover #Landscape {
 }
 /* line 27, ../sass/dark.scss */
 .doen__block .gr__1 {
-  background-image: url('/images/icons-s449f3c20ec.png');
-  background-position: 0 -5473px;
+  background-image: url('/images/icons-s48968e97f2.png');
+  background-position: 0 -5405px;
   background-repeat: no-repeat;
   display: block;
   height: 410px;
@@ -1609,19 +1608,19 @@ div.intro__layout.home a.start__btn:hover #Landscape {
 @media (-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 3 / 2), (min-device-pixel-ratio: 2) {
   /* line 27, ../sass/dark.scss */
   .doen__block .gr__1 {
-    background-position: 0 -4592px;
+    background-position: 0 -4782px;
     -webkit-background-size: 524px auto;
     -moz-background-size: 524px auto;
     -o-background-size: 524px auto;
     background-size: 524px auto;
-    background-image: url('/images/icons-x2-s735f718858.png');
+    background-image: url('/images/icons-x2-s2622cbcbc2.png');
   }
 }
 /* line 30, ../sass/dark.scss */
 .doen__block .gr__2 {
   top: 100px;
-  background-image: url('/images/icons-s449f3c20ec.png');
-  background-position: 0 -1400px;
+  background-image: url('/images/icons-s48968e97f2.png');
+  background-position: 0 -1401px;
   background-repeat: no-repeat;
   display: block;
   height: 311px;
@@ -1635,12 +1634,12 @@ div.intro__layout.home a.start__btn:hover #Landscape {
 @media (-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 3 / 2), (min-device-pixel-ratio: 2) {
   /* line 30, ../sass/dark.scss */
   .doen__block .gr__2 {
-    background-position: 0 -1400px;
+    background-position: 0 -1401px;
     -webkit-background-size: 524px auto;
     -moz-background-size: 524px auto;
     -o-background-size: 524px auto;
     background-size: 524px auto;
-    background-image: url('/images/icons-x2-s735f718858.png');
+    background-image: url('/images/icons-x2-s2622cbcbc2.png');
   }
 }
 
@@ -1696,8 +1695,8 @@ div.intro__layout.home a.start__btn:hover #Landscape {
 }
 /* line 63, ../sass/dark.scss */
 .doorzetten__block .gr__1 {
-  background-image: url('/images/icons-s449f3c20ec.png');
-  background-position: 0 -2039px;
+  background-image: url('/images/icons-s48968e97f2.png');
+  background-position: 0 -2040px;
   background-repeat: no-repeat;
   display: block;
   height: 447px;
@@ -1708,22 +1707,22 @@ div.intro__layout.home a.start__btn:hover #Landscape {
 @media (-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 3 / 2), (min-device-pixel-ratio: 2) {
   /* line 63, ../sass/dark.scss */
   .doorzetten__block .gr__1 {
-    background-position: 0 -2039px;
+    background-position: 0 -2040px;
     -webkit-background-size: 524px auto;
     -moz-background-size: 524px auto;
     -o-background-size: 524px auto;
     background-size: 524px auto;
-    background-image: url('/images/icons-x2-s735f718858.png');
+    background-image: url('/images/icons-x2-s2622cbcbc2.png');
   }
 }
 /* line 67, ../sass/dark.scss */
 .doorzetten__block .gr__2 {
-  background-image: url('/images/icons-s449f3c20ec.png');
+  background-image: url('/images/icons-s48968e97f2.png');
   background-position: 0 -4982px;
   background-repeat: no-repeat;
   display: block;
-  height: 65px;
-  width: 268px;
+  height: 63px;
+  width: 261px;
   top: 150px;
 }
 @media (-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 3 / 2), (min-device-pixel-ratio: 2) {
@@ -1734,91 +1733,91 @@ div.intro__layout.home a.start__btn:hover #Landscape {
     -moz-background-size: 524px auto;
     -o-background-size: 524px auto;
     background-size: 524px auto;
-    background-image: url('/images/icons-x2-s735f718858.png');
+    background-image: url('/images/icons-x2-s2622cbcbc2.png');
   }
 }
 /* line 71, ../sass/dark.scss */
 .doorzetten__block .gr__3 {
-  background-image: url('/images/icons-s449f3c20ec.png');
-  background-position: 0 -5047px;
+  background-image: url('/images/icons-s48968e97f2.png');
+  background-position: 0 -5105px;
   background-repeat: no-repeat;
   display: block;
-  height: 63px;
-  width: 268px;
+  height: 61px;
+  width: 262px;
   top: 242px;
 }
 @media (-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 3 / 2), (min-device-pixel-ratio: 2) {
   /* line 71, ../sass/dark.scss */
   .doorzetten__block .gr__3 {
-    background-position: 0 -5519px;
+    background-position: 0 -5694px;
     -webkit-background-size: 524px auto;
     -moz-background-size: 524px auto;
     -o-background-size: 524px auto;
     background-size: 524px auto;
-    background-image: url('/images/icons-x2-s735f718858.png');
+    background-image: url('/images/icons-x2-s2622cbcbc2.png');
   }
 }
 /* line 75, ../sass/dark.scss */
 .doorzetten__block .gr__4 {
-  background-image: url('/images/icons-s449f3c20ec.png');
-  background-position: 0 -5110px;
+  background-image: url('/images/icons-s48968e97f2.png');
+  background-position: 0 -5045px;
   background-repeat: no-repeat;
   display: block;
-  height: 62px;
-  width: 268px;
+  height: 60px;
+  width: 262px;
   top: 340px;
 }
 @media (-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 3 / 2), (min-device-pixel-ratio: 2) {
   /* line 75, ../sass/dark.scss */
   .doorzetten__block .gr__4 {
-    background-position: 0 -5457px;
+    background-position: 0 -5755px;
     -webkit-background-size: 524px auto;
     -moz-background-size: 524px auto;
     -o-background-size: 524px auto;
     background-size: 524px auto;
-    background-image: url('/images/icons-x2-s735f718858.png');
+    background-image: url('/images/icons-x2-s2622cbcbc2.png');
   }
 }
 /* line 79, ../sass/dark.scss */
 .doorzetten__block .gr__5 {
-  background-image: url('/images/icons-s449f3c20ec.png');
-  background-position: 0 -6739px;
+  background-image: url('/images/icons-s48968e97f2.png');
+  background-position: 0 -6731px;
   background-repeat: no-repeat;
   display: block;
-  height: 40px;
-  width: 267px;
+  height: 39px;
+  width: 260px;
   top: 430px;
 }
 @media (-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 3 / 2), (min-device-pixel-ratio: 2) {
   /* line 79, ../sass/dark.scss */
   .doorzetten__block .gr__5 {
-    background-position: 0 -6454px;
+    background-position: 0 -6517px;
     -webkit-background-size: 524px auto;
     -moz-background-size: 524px auto;
     -o-background-size: 524px auto;
     background-size: 524px auto;
-    background-image: url('/images/icons-x2-s735f718858.png');
+    background-image: url('/images/icons-x2-s2622cbcbc2.png');
   }
 }
 /* line 83, ../sass/dark.scss */
 .doorzetten__block .gr__6 {
-  background-image: url('/images/icons-s449f3c20ec.png');
-  background-position: 0 -5172px;
+  background-image: url('/images/icons-s48968e97f2.png');
+  background-position: 0 -5815px;
   background-repeat: no-repeat;
   display: block;
-  height: 62px;
-  width: 268px;
+  height: 60px;
+  width: 262px;
   top: 520px;
 }
 @media (-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 3 / 2), (min-device-pixel-ratio: 2) {
   /* line 83, ../sass/dark.scss */
   .doorzetten__block .gr__6 {
-    background-position: 0 -5821px;
+    background-position: 0 -5815px;
     -webkit-background-size: 524px auto;
     -moz-background-size: 524px auto;
     -o-background-size: 524px auto;
     background-size: 524px auto;
-    background-image: url('/images/icons-x2-s735f718858.png');
+    background-image: url('/images/icons-x2-s2622cbcbc2.png');
   }
 }
 
@@ -1851,86 +1850,86 @@ div.intro__layout.home a.start__btn:hover #Landscape {
 }
 /* line 101, ../sass/dark.scss */
 .danken__block .gr__1 {
-  background-image: url('/images/icons-s449f3c20ec.png');
-  background-position: 0 -3259px;
+  background-image: url('/images/icons-s48968e97f2.png');
+  background-position: 0 -3261px;
   background-repeat: no-repeat;
   display: block;
-  height: 99px;
-  width: 270px;
+  height: 96px;
+  width: 254px;
   top: 100px;
 }
 @media (-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 3 / 2), (min-device-pixel-ratio: 2) {
   /* line 101, ../sass/dark.scss */
   .danken__block .gr__1 {
-    background-position: 0 -3259px;
+    background-position: 0 -3261px;
     -webkit-background-size: 524px auto;
     -moz-background-size: 524px auto;
     -o-background-size: 524px auto;
     background-size: 524px auto;
-    background-image: url('/images/icons-x2-s735f718858.png');
+    background-image: url('/images/icons-x2-s2622cbcbc2.png');
   }
 }
 /* line 105, ../sass/dark.scss */
 .danken__block .gr__2 {
-  background-image: url('/images/icons-s449f3c20ec.png');
-  background-position: 0 -3642px;
+  background-image: url('/images/icons-s48968e97f2.png');
+  background-position: 0 -3900px;
   background-repeat: no-repeat;
   display: block;
-  height: 99px;
-  width: 238px;
+  height: 96px;
+  width: 230px;
   top: 223px;
 }
 @media (-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 3 / 2), (min-device-pixel-ratio: 2) {
   /* line 105, ../sass/dark.scss */
   .danken__block .gr__2 {
-    background-position: 0 -3740px;
+    background-position: 0 -3900px;
     -webkit-background-size: 524px auto;
     -moz-background-size: 524px auto;
     -o-background-size: 524px auto;
     background-size: 524px auto;
-    background-image: url('/images/icons-x2-s735f718858.png');
+    background-image: url('/images/icons-x2-s2622cbcbc2.png');
   }
 }
 /* line 109, ../sass/dark.scss */
 .danken__block .gr__3 {
-  background-image: url('/images/icons-s449f3c20ec.png');
-  background-position: 0 -3741px;
+  background-image: url('/images/icons-s48968e97f2.png');
+  background-position: 0 -3804px;
   background-repeat: no-repeat;
   display: block;
-  height: 98px;
-  width: 277px;
+  height: 96px;
+  width: 268px;
   top: 349px;
 }
 @media (-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 3 / 2), (min-device-pixel-ratio: 2) {
   /* line 109, ../sass/dark.scss */
   .danken__block .gr__3 {
-    background-position: 0 -3642px;
+    background-position: 0 -3641px;
     -webkit-background-size: 524px auto;
     -moz-background-size: 524px auto;
     -o-background-size: 524px auto;
     background-size: 524px auto;
-    background-image: url('/images/icons-x2-s735f718858.png');
+    background-image: url('/images/icons-x2-s2622cbcbc2.png');
   }
 }
 /* line 113, ../sass/dark.scss */
 .danken__block .gr__4 {
-  background-image: url('/images/icons-s449f3c20ec.png');
-  background-position: 0 -4002px;
+  background-image: url('/images/icons-s48968e97f2.png');
+  background-position: 0 -3996px;
   background-repeat: no-repeat;
   display: block;
-  height: 98px;
-  width: 276px;
+  height: 96px;
+  width: 261px;
   top: 477px;
 }
 @media (-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 3 / 2), (min-device-pixel-ratio: 2) {
   /* line 113, ../sass/dark.scss */
   .danken__block .gr__4 {
-    background-position: 0 -4002px;
+    background-position: 0 -4197px;
     -webkit-background-size: 524px auto;
     -moz-background-size: 524px auto;
     -o-background-size: 524px auto;
     background-size: 524px auto;
-    background-image: url('/images/icons-x2-s735f718858.png');
+    background-image: url('/images/icons-x2-s2622cbcbc2.png');
   }
 }
 
@@ -1954,8 +1953,8 @@ div.intro__layout.home a.start__btn:hover #Landscape {
   display: block;
   margin: 0 auto;
   margin-bottom: 20px;
-  background-image: url('/images/icons-s449f3c20ec.png');
-  background-position: 0 -4301px;
+  background-image: url('/images/icons-s48968e97f2.png');
+  background-position: 0 -4293px;
   background-repeat: no-repeat;
   display: block;
   height: 53px;
@@ -1964,12 +1963,12 @@ div.intro__layout.home a.start__btn:hover #Landscape {
 @media (-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 3 / 2), (min-device-pixel-ratio: 2) {
   /* line 124, ../sass/dark.scss */
   .einde__block .coll__2:before {
-    background-position: 0 -4301px;
+    background-position: 0 -4293px;
     -webkit-background-size: 524px auto;
     -moz-background-size: 524px auto;
     -o-background-size: 524px auto;
     background-size: 524px auto;
-    background-image: url('/images/icons-x2-s735f718858.png');
+    background-image: url('/images/icons-x2-s2622cbcbc2.png');
   }
 }
 /* line 137, ../sass/dark.scss */
@@ -2006,8 +2005,8 @@ div.intro__layout.home a.start__btn:hover #Landscape {
 }
 /* line 155, ../sass/dark.scss */
 .dupliceren__block .gr__1 {
-  background-image: url('/images/icons-s449f3c20ec.png');
-  background-position: 0 -6922px;
+  background-image: url('/images/icons-s48968e97f2.png');
+  background-position: 0 -6913px;
   background-repeat: no-repeat;
   display: block;
   height: 178px;
@@ -2018,18 +2017,18 @@ div.intro__layout.home a.start__btn:hover #Landscape {
 @media (-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 3 / 2), (min-device-pixel-ratio: 2) {
   /* line 155, ../sass/dark.scss */
   .dupliceren__block .gr__1 {
-    background-position: 0 -6635px;
+    background-position: 0 -6626px;
     -webkit-background-size: 524px auto;
     -moz-background-size: 524px auto;
     -o-background-size: 524px auto;
     background-size: 524px auto;
-    background-image: url('/images/icons-x2-s735f718858.png');
+    background-image: url('/images/icons-x2-s2622cbcbc2.png');
   }
 }
 /* line 159, ../sass/dark.scss */
 .dupliceren__block .gr__2 {
-  background-image: url('/images/icons-s449f3c20ec.png');
-  background-position: 0 -5883px;
+  background-image: url('/images/icons-s48968e97f2.png');
+  background-position: 0 -5875px;
   background-repeat: no-repeat;
   display: block;
   height: 190px;
@@ -2040,39 +2039,39 @@ div.intro__layout.home a.start__btn:hover #Landscape {
 @media (-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 3 / 2), (min-device-pixel-ratio: 2) {
   /* line 159, ../sass/dark.scss */
   .dupliceren__block .gr__2 {
-    background-position: 0 -5883px;
+    background-position: 0 -5875px;
     -webkit-background-size: 524px auto;
     -moz-background-size: 524px auto;
     -o-background-size: 524px auto;
     background-size: 524px auto;
-    background-image: url('/images/icons-x2-s735f718858.png');
+    background-image: url('/images/icons-x2-s2622cbcbc2.png');
   }
 }
 /* line 163, ../sass/dark.scss */
 .dupliceren__block .gr__3 {
-  background-image: url('/images/icons-s449f3c20ec.png');
-  background-position: 0 -4592px;
+  background-image: url('/images/icons-s48968e97f2.png');
+  background-position: 0 -4346px;
   background-repeat: no-repeat;
   display: block;
-  height: 190px;
-  width: 97px;
+  height: 198px;
+  width: 99px;
   top: 175px;
   left: 105px;
 }
 @media (-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 3 / 2), (min-device-pixel-ratio: 2) {
   /* line 163, ../sass/dark.scss */
   .dupliceren__block .gr__3 {
-    background-position: 0 -5002px;
+    background-position: 0 -4584px;
     -webkit-background-size: 524px auto;
     -moz-background-size: 524px auto;
     -o-background-size: 524px auto;
     background-size: 524px auto;
-    background-image: url('/images/icons-x2-s735f718858.png');
+    background-image: url('/images/icons-x2-s2622cbcbc2.png');
   }
 }
 /* line 167, ../sass/dark.scss */
 .dupliceren__block .gr__4 {
-  background-image: url('/images/icons-s449f3c20ec.png');
+  background-image: url('/images/icons-s48968e97f2.png');
   background-position: 0 -4782px;
   background-repeat: no-repeat;
   display: block;
@@ -2089,13 +2088,13 @@ div.intro__layout.home a.start__btn:hover #Landscape {
     -moz-background-size: 524px auto;
     -o-background-size: 524px auto;
     background-size: 524px auto;
-    background-image: url('/images/icons-x2-s735f718858.png');
+    background-image: url('/images/icons-x2-s2622cbcbc2.png');
   }
 }
 /* line 171, ../sass/dark.scss */
 .dupliceren__block .gr__5 {
-  background-image: url('/images/icons-s449f3c20ec.png');
-  background-position: 0 -4100px;
+  background-image: url('/images/icons-s48968e97f2.png');
+  background-position: 0 -4092px;
   background-repeat: no-repeat;
   display: block;
   height: 201px;
@@ -2106,11 +2105,11 @@ div.intro__layout.home a.start__btn:hover #Landscape {
 @media (-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 3 / 2), (min-device-pixel-ratio: 2) {
   /* line 171, ../sass/dark.scss */
   .dupliceren__block .gr__5 {
-    background-position: 0 -4100px;
+    background-position: 0 -3996px;
     -webkit-background-size: 524px auto;
     -moz-background-size: 524px auto;
     -o-background-size: 524px auto;
     background-size: 524px auto;
-    background-image: url('/images/icons-x2-s735f718858.png');
+    background-image: url('/images/icons-x2-s2622cbcbc2.png');
   }
 }

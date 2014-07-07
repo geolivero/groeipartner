@@ -9,7 +9,7 @@ Einde = Backbone.View.extend({
 
     setTimeout(function () {
         self.$el.find('.intro').addClass('show');
-    }, 300);
+    }, 500);
 
     setTimeout(function () {
       self.$el.find('.circles').each(function (i) {
@@ -17,9 +17,9 @@ Einde = Backbone.View.extend({
           console.log(i);
           setTimeout(function () {
             el.addClass('show');
-          }, i * 500);
+          }, i * 800);
       });
-    }, 600);
+    }, 1000);
   },
   render: function () {
     this.$el.html(this.model.attributes.content);

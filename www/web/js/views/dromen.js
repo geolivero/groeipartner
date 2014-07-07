@@ -10,11 +10,11 @@ Dromen = Backbone.View.extend({
         var el = $(this);
         setTimeout(function () {
             el.addClass('show');
-        }, (i + 1) * 500);
+        }, (i + 1) * 800);
     });
     setTimeout(function () {
         self.$el.find('.intro').addClass('show');
-    }, 300);
+    }, 500);
     
   },
   render: function () {

@@ -28,17 +28,38 @@ Router = Backbone.Router.extend({
         'einde': 'einde',
         'durven': 'durven'
     },
+    initialize: function () {
+        this.$social = $('.at4-share-outer');
+    },
     changeTheme: function (theme) {
         var Theme = theme || '';
         window.App.nav.removeClass('theme__orange').removeClass('theme__dark');
         window.App.nav.addClass(Theme);
+        if (Theme.length && this.$social.length) {
+            this.$social.show();
+        }
     },
     setToActive: function (index) {
         $('footer li').removeClass('active');
         $('footer li').eq(index).addClass('active');
     },
     initialize: function () {
+        var timer, testAddThis, self = this;
         this.collection = new Models.collection(window.Data);
+        this.$social = 0;
+
+        testAddThis = function () {
+            if ($('.at4-share-outer').length) {
+                self.$social = $('.at4-share-outer');
+                self.$social.hide();
+            } else {
+                setTimeout(testAddThis, 100);    
+            }
+        };
+
+        if (window.addthis) {
+            testAddThis();
+        }
     },
     showNav: function () {
         setTimeout(function () {
@@ -152,7 +173,7 @@ Router = Backbone.Router.extend({
 
         this.setToActive(0);
         this.showNav();
-        this.changeTheme();
+        this.changeTheme('white');
     }
 });
 

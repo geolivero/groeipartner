@@ -22,13 +22,14 @@ App.init = function () {
     $(document).keyup(function (e) {
         $.each(pages, function (i, page) {
             var url = document.location.toString().split('#')[1];
+
             if (page === url) {
+                index = i;
                 if (e.keyCode === 39) {
                     index = (index >= pages.length - 1) ? pages.length - 1 : index + 1;
                 } else {
                     index = (index <= 1) ? 0 : index - 1;
-                }
-        
+                }        
             }
         });
         if (e.keyCode === 39 || e.keyCode === 37) {

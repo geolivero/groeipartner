@@ -9,7 +9,7 @@ Delen = Backbone.View.extend({
 
     setTimeout(function () {
         self.$el.find('.intro').addClass('show');
-    }, 300);
+    }, 600);
 
     setTimeout(function () {
       self.$el.find('.circles').each(function (i) {
@@ -17,9 +17,9 @@ Delen = Backbone.View.extend({
           console.log(i);
           setTimeout(function () {
             el.addClass('show');
-          }, i * 500);
+          }, i * 800);
       });
-    }, 600);
+    }, 1400);
   },
   render: function () {
     this.$el.html(this.model.attributes.content);

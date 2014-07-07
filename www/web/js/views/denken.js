@@ -8,10 +8,10 @@ Denken = Backbone.View.extend({
     var self = this;
     setTimeout(function () {
         self.$el.find('.intro').addClass('show');
-    }, 300);
+    }, 600);
     setTimeout(function () {
         self.$el.find('.gr__1').addClass('show');
-    }, 600);
+    }, 1000);
   },
   render: function () {
     this.$el.html(this.model.attributes.content);

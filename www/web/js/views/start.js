@@ -17,7 +17,7 @@ Start = Backbone.View.extend({
         var el = $(this);
         setTimeout(function () {
             el.addClass('show');
-        }, i * 200);
+        }, i * 500);
     });
   },
   showSpiral: function () {
