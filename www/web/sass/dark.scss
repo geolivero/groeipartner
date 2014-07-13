@@ -13,6 +13,9 @@
 }
 
 .doen__block {
+    .grafics {
+        @include transform(scale(0.65)); top: -100px;
+    }
     .circles {
         position: absolute; left: 50%; 
         @include transform(translateX(-50%));
@@ -28,13 +31,29 @@
         @include sprite-background(durven__machine);
     }
     .gr__2 {
-        top: 100px;
+        top: 100px; 
+        width: 160px;
         @include sprite-background(durven_circles);
+        width: 160px; margin-left: -125px;
         @include transform(translateX(-50%) translateY(-100px));
+    }
+    .gr__3 {
+        top: 100px; width: 180px;
+        @include sprite-background(durven_circles);
+        margin-left: 200px;
+        @include transform(translateX(-50%) translateY(-100px));
+        &.show {
+            background-position: -216px -1401px;
+        }
+
+        @media (-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 3/2), (min-device-pixel-ratio: 2) {
+
+        } 
     }
 }
 
 .doorzetten__block {
+
     .circles {
         position: absolute; left: 0; 
         top: 150px; @include opacity(0);
@@ -49,6 +68,9 @@
 }
 
 .doorzetten__block {
+    .grafics {
+        @include transform(scale(0.8)); top: -100px;
+    }
     .circles {
         position: absolute; left: 0; 
         top: 150px; @include opacity(0);
@@ -87,6 +109,9 @@
 }
 
 .danken__block {
+    .grafics {
+        @include transform(scale(0.85)); top: -80px;
+    }
     .circles {
         position: absolute; left: 50px; 
         top: 100px; @include opacity(0);
@@ -127,11 +152,12 @@
             margin: 0 auto;
             margin-bottom: 20px;
             @include sprite-background(logo);
+            position: absolute; bottom: 100px; left: 100%; margin-right: 250px;
         }
         
         position: absolute; left: 50%;
-        top: 200px; @include transform(translateX(-50%));
-        width: 600px;
+        top: 50%; @include transform(translateX(-50%) translateY(-50%));
+        width: 850px;
         text-align: center; float: none;
 
         blockquote {
@@ -141,6 +167,9 @@
 }
 
 .dupliceren__block {
+    .grafics {
+        @include transform(scale(0.8)); top: -50px;
+    }
     .circles {
         position: absolute; left: 0; 
         top: 150px; @include opacity(0);

@@ -13,11 +13,12 @@ Start = Backbone.View.extend({
     });
   },
   showSpiralEls: function () {
-    this.$el.find('.spiral__menu li').each(function (i) {
+    var lists = this.$el.find('.spiral__menu li');
+    lists.each(function (i) {
         var el = $(this);
         setTimeout(function () {
             el.addClass('show');
-        }, i * 500);
+        }, (i + 0.5) * 800);
     });
   },
   showSpiral: function () {

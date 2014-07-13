@@ -230,6 +230,27 @@ website:    http://www.burocratik.com
   background: rgba(255, 255, 255, 0.2);
 }
 
+/* line 65, ../sass/inc/helpers.scss */
+body #at4-share {
+  position: absolute;
+  top: 50%;
+  margin-top: -80px;
+}
+
+/* line 70, ../sass/inc/helpers.scss */
+#at4-share .gp__btn {
+  background: #eb5e1f;
+  color: white;
+  text-indent: 0;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 140%;
+  height: 48px;
+  line-height: 48px;
+  padding: 0;
+}
+
 /* line 1, ../sass/inc/defaults.scss */
 * {
   -webkit-box-sizing: border-box;
@@ -254,8 +275,8 @@ body * {
 }
 /* line 16, ../sass/inc/defaults.scss */
 body .logo {
-  background-image: url('/images/icons-s449f3c20ec.png');
-  background-position: 0 -4301px;
+  background-image: url('/images/icons-s48968e97f2.png');
+  background-position: 0 -4293px;
   background-repeat: no-repeat;
   display: block;
   height: 53px;
@@ -268,12 +289,12 @@ body .logo {
 @media (-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 3 / 2), (min-device-pixel-ratio: 2) {
   /* line 16, ../sass/inc/defaults.scss */
   body .logo {
-    background-position: 0 -4301px;
+    background-position: 0 -4293px;
     -webkit-background-size: 524px auto;
     -moz-background-size: 524px auto;
     -o-background-size: 524px auto;
     background-size: 524px auto;
-    background-image: url('/images/icons-x2-s735f718858.png');
+    background-image: url('/images/icons-x2-s2622cbcbc2.png');
   }
 }
 
@@ -381,7 +402,16 @@ div#secondApp {
   display: block;
   height: 30px;
 }
-/* line 81, ../sass/inc/defaults.scss */
+/* line 80, ../sass/inc/defaults.scss */
+.site-footer li.diff a {
+  border: solid 2px #34393b;
+  background: #ff7233;
+}
+/* line 83, ../sass/inc/defaults.scss */
+.site-footer li.diff a:hover {
+  background: white;
+}
+/* line 88, ../sass/inc/defaults.scss */
 .site-footer li.active a {
   width: 35px;
   height: 35px;
@@ -389,17 +419,17 @@ div#secondApp {
   border: solid 2px #ff7233;
   top: -18px;
 }
-/* line 85, ../sass/inc/defaults.scss */
+/* line 92, ../sass/inc/defaults.scss */
 .site-footer li.active a:before {
   content: '';
   display: block;
   height: 40px;
 }
-/* line 91, ../sass/inc/defaults.scss */
+/* line 98, ../sass/inc/defaults.scss */
 .site-footer.theme__orange li {
   border-color: white;
 }
-/* line 94, ../sass/inc/defaults.scss */
+/* line 101, ../sass/inc/defaults.scss */
 .site-footer.theme__orange li a {
   border-color: white;
   color: white;

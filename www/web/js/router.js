@@ -49,8 +49,10 @@ Router = Backbone.Router.extend({
         this.$social = 0;
 
         testAddThis = function () {
-            if ($('.at4-share-outer').length) {
-                self.$social = $('.at4-share-outer');
+            if ($('#at4-share').length) {
+                self.$social = $('#at4-share');
+                self.$social.append('<a class="gp__btn" href="http://groeipartner.nl" target="_blank">gp</a>');
+                self.$social.find('.at-share-close-control').remove();
                 self.$social.hide();
             } else {
                 setTimeout(testAddThis, 100);    
@@ -64,7 +66,7 @@ Router = Backbone.Router.extend({
     showNav: function () {
         setTimeout(function () {
             window.App.nav.addClass('show');
-        }, 2000);
+        }, 7000);
     },
     init: function () {
         var home = new Home({ 

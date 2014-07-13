@@ -7,7 +7,7 @@
 
     .info__block {
         position: absolute; left: 20px;
-        top: 20px; position: relative; z-index: 50;
+        top: 20px; position: relative; z-index: 100025;
         @include opacity(0);
         @include transition(opacity 1s);
 
@@ -72,6 +72,13 @@
         content: '';
         display: block; @include sprite-background(spiraal);
         position: absolute; bottom: 0; left: 0;
+    }
+    &:after {
+        content: ''; display: block; width: 800px;
+        position: absolute;
+        @include sprite-background(spiralslice);
+        top: 193px; left: 0px; z-index: -1;
+
     }
     &.show {
         @include transition(opacity 1.5s, transform 1.5s);

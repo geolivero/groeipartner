@@ -77,6 +77,13 @@ div#secondApp {
             content: ''; display: block; height: 30px;
         }
     }
+    li.diff a {
+        border: solid 2px $color__b;
+        background:$color__c;
+        &:hover {
+            background:$color__a;
+        }
+    }
     li.active {
         a {
             width: 35px; height: 35px;

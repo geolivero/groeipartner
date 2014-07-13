@@ -44,6 +44,9 @@
 }
 
 .durven__block {
+    .grafics {
+        @include transform(scale(0.8)); top: -100px;
+    }
     .gr__1, .gr__2, .gr__3, .gr__4, .gr__5 {
         position: absolute; left: 50%; top: 200px;
         @include transform(translateX(-50%) scale(0));
@@ -78,7 +81,7 @@
             @include transform(translateX(60%) scale(1));
         }
     }
-    .gr__4 {
+    .gr__5 {
         @include sprite-background(doc_3);   
         top: 380px;
         @include transform(translateX(-80%) scale(0));
@@ -86,7 +89,7 @@
             @include transform(translateX(-80%) scale(1));
         }
     }
-    .gr__5 {
+    .gr__4 {
         @include sprite-background(doc_4);  
         top: 380px;
         @include transform(translateX(60%) scale(0)); 
@@ -117,22 +120,34 @@
         @include transform(scale(0.7) translateY(-50px));
 
         &.show {
+            @include transform(scale(0.6) translateX(0) translateY(0));
         }
     }
     .gr__2 {
         @include sprite-background(delen-people);
-        left: 0;
-        top: (100px+140px);
-        @include transform(scale(0.7) translateY(50px));
+        left: -20px;
+        top: (100px+100px);
+        @include transform(scale(0.65) translateY(50px));
         &.show {
+            @include transform(scale(0.65) translateY(50px));
         }
     }
     .gr__3 {
         @include sprite-background(delen-panels);
+        
         left: 320px;
         top: 100px;
-        @include transform(scale(0.7) translateX(50px));
+        height: 0;
+        @include transform(scale(1) translateX(50px));
         &.show {
+            @include transition(height 1s);
+            height: 127px;
+        }
+        &.second {
+            height: 276px;
+        }
+        &.third {
+            height: 522px;
         }
     }
 }
